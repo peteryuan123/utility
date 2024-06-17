@@ -6,6 +6,7 @@ import readline
 import sys
 
 def main():
+    print("q0*q1, split by space(x,y,z,w)")
     while(True):
         q0_array = input("q0:").split()
         q0_array = list(map(double, q0_array))
